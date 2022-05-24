@@ -27,3 +27,48 @@ ul {
 .text-title {
     color: #FFFFFF;
 }
+
+.text-title-uppercase {
+    color: #343434;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.title-slider {
+    color: #343434;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+
+.text-slider {
+    color: #343434;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.data {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #979797;
+}
