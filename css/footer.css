@@ -1,0 +1,44 @@
+.footer {
+    color: #FFFFFF;
+    padding: 36px 0px;
+    background-color: #005BC1;
+}
+
+.contacts {
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    width: 1110px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.footer_nav {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 110px;
+}
+
+.footer_nav li {
+    margin: 10px;
+}
+
+.info {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

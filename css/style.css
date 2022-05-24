@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
 ul {
     list-style-type: none;
 }
