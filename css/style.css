@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.text-title {
+    color: #FFFFFF;
+}

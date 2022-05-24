@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 91, 193, 0.6);
+}
+
+.container__header {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 5px 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 0px 13px;
+}
+
+/* main */
+.lol {
+    height: 800px;
+    background-image: url(../img/background.png);
+}
+
+.wrap {
+    position: relative;
+}
+
+.column {
+    top: -200px;
+    position: absolute;
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+}
+
+.main-content {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 635px;
+    height: 317px;
+}
+
+.main-text-title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+}
+
+.main-text {
+    margin: 40px 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.main-content__btn {
+    border: 2px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0);
+    padding: 15px 40px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
