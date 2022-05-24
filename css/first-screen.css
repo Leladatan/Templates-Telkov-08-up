@@ -39,10 +39,10 @@ nav ul {
 }
 
 .column {
-    top: -202px;
+    top: -200px;
     position: absolute;
     width: 444px;
-    height: 720px;
+    height: 718px;
     background: rgba(0, 91, 193, 0.6);
 }
 
