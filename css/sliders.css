@@ -7,14 +7,12 @@
     align-items: center;
 }
 
-/* 1 */
 .wrap-slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* 4 */
 .new {
     height: 600px;
     padding: 110px 0px;
@@ -142,20 +140,13 @@
 }
 
 .catalog__link {
-    /* h3 */
-
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
-
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* black */
-
     color: #343434;
     transition: 0.5s;
 }
@@ -196,7 +187,6 @@
 }
 
 .product__text {
-    /* h4 */
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -204,9 +194,6 @@
     line-height: 27px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* white */
-
     color: #FFFFFF;
 }
 
@@ -224,16 +211,11 @@
 }
 
 .rent__text {
-    /* p.text */
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-
-    /* black */
-
     color: #343434;
 }
 
@@ -251,20 +233,13 @@
 }
 
 .rent-title {
-    /* h4 */
-
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    /* identical to box height */
-
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* black */
-
     color: #343434;
 }
 
@@ -290,13 +265,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* black */
-
     color: #343434;
 }
 
@@ -306,13 +276,11 @@
 }
 
 .equip__item {
-    /* p.small-text */
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
-    /* black */
     color: #343434;
     margin-bottom: 20px;
 }
