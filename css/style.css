@@ -80,3 +80,57 @@ ul {
 img:hover {
     cursor: pointer;
 }
+
+/*  */
+
+.title-link {
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+}
+
+.title-link:hover .title::after {
+    width: 100px;
+    left: -140px;
+}
+
+.text-title-uppercase {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+    color: #343434;
+    margin-left: 140px;
+    font-weight: 400;
+}
+
+.text-title-uppercase::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: -140px;
+    width: 100px;
+    height: 3px;
+    background-color: #005BC1;
+}
+
+.text-title-uppercase::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 7px;
+    left: -90px;
+    width: 50px;
+    height: 3px;
+    background-color: #005BC1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.text-title-uppercase:hover::after {
+    width: 100px;
+    left: -140px;
+}
