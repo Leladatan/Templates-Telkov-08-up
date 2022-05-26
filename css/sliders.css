@@ -23,6 +23,7 @@
 .blue__btn {
     border: 0px;
     padding: 15px 34px;
+    border: 2px solid #005BC1;
     background-color: #005BC1;
     font-family: 'Open Sans';
     font-style: normal;
@@ -32,6 +33,12 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #fff;
+}
+
+.blue__btn:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: #fff;
 }
 
 .first-block__new {
